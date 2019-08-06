@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #29293a;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.logo{
+    margin-top: 14px;
+    float: left;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #1d0d44;
+    z-index: 1000;
+    box-shadow: 0 8px 6px -6px black
+}
+
+nav{
+    text-align: right;
+    margin: 20px 80px;
+}
+
+ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 18px;
+    font-weight: 200;
+}
+
+ul li a{ 
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 1.20px;
+    font-size: 18px;   
+    margin-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    transition:all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+}
+
+ul li a:hover{ 
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 1.20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    -moz-transition: all 0.25s ease-in;
+    -o-transition: all 0.25s ease-in;
+}
+
+.tilte {
+    text-align: center;
+    font-size:24px;
+
+    color: rgb(255, 255, 255);
+    background-color:   #1d0d44;
+   
+    padding-top: 30px;
+    font-size: 14px;
+    
+    }
+.hi{
+   text-align: center;
+   font-weight: bold; 
+   font-size: 18px;
+}
+
+.Sign{
+    width:cover;
+    
+  
+    
+
+    background-color:    #1d0d44;
+    padding: 30px;
+}
+.for{
+    width:90%;
+    border-radius:5px; 
+    letter-spacing: 1px;
+    border-spacing: 20px;
+    line-height: 50px;
+  padding-right: 40px;
+  
+
+    
+    
+}
+
+.checkmark{
+    color: rgb(255, 255, 255);
+
+
+}
+.pad{
+    padding: 10px;
+}
+
+input{
+    padding-left: 20px;
+    margin: 0;
+    font-family: inherit;
+}
+.confirm input{
+
+border:none;
+background-color: rgb(120, 64, 173);
+color: white;
+font-size: 18px;
+font-weight: bold;
+    
+} 
+
+.input:hover{
+    color: rgb(98, 62, 165);
+}
+.confirm input:hover{
+ background-color: rgb(255, 255, 255);
+}
+.fo{
+    
+    width:90%;
+    border-radius:5px; 
+    letter-spacing: 1px;
+    border-spacing: 20px;
+    line-height: 50px;
+    padding-right: 40px;
+    font-size: 8px;
+}
+.fo:hover{
+    color: rgb(98, 62, 165);
+}
